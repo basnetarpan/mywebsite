@@ -1,24 +1,6 @@
-.container {
-  background-color: chartreuse;
-}
-.box {
-  background-color: aqua;
-  width: 250px;
-  height: 250px;
-  position: relative;
-  animation-name: Arpan;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-fill-mode: backwards;
-  animation-direction: alternate-reverse;
-  animation-play-state: running;
-  animation-composition: ;
-}
-@keyframes Arpan {
-  from {
-    width: 200px;
-  }
-  to {
-    width: 900px;
-  }
+body {
+  background-image: url(i.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
